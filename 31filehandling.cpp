@@ -13,7 +13,7 @@ int main()
     {
         cout<<"File printed Successfully:"<<endl;
         file<<"I am very happy to created a file"<<endl;
-        file<<"Hello world"<<endl;
+      //  file<<"Hello world"<<endl;
         file.close();
 
     }

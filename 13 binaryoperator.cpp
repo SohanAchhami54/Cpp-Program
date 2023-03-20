@@ -34,10 +34,10 @@ void complex::show()
 
  complex complex::operator+(const complex &obj)
 {
-    complex ob3;
-    ob3.real=real+obj.real;
-    ob3.imag=imag+obj.imag;
-    return ob3;
+    complex ob;
+    ob.real=real+obj.real;
+    ob.imag=imag+obj.imag;
+    return ob;
 
 }
 

@@ -14,8 +14,8 @@ class rectangle
 };
 rectangle::rectangle()//default constructor
 {
-    length=20;
-    breadth=30;
+    length=2;
+    breadth=3;
 }
  rectangle::rectangle(int l,int b)//parametrized constructor
 {
@@ -34,7 +34,7 @@ void rectangle::sum(rectangle ob1,rectangle ob2)//object as a function arguments
 }
 int main()
 {
-    rectangle ob1,ob2(30,40),ob3;
+    rectangle ob1,ob2(3,4),ob3;
      ob3.sum(ob1,ob2);
     cout<<endl;
     cout<<"Area 1 ="<<ob1.area()<<endl;

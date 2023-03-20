@@ -2,33 +2,35 @@
 using namespace std;
 class base_1
 {
-public:
+private:
     int a,b;
+    public:
     void input1()
     {
         cout<<"Enter the value of a and b:"<<endl;
         cin>>a;
         cin>>b;
     }
-//    void show()
-//    {
-//        cout<<"a="<<a<<" b="<<b<<endl;
-//    }
+    void show1()
+    {
+        cout<<"a="<<a<<" b="<<b<<endl;
+    }
 };
 class base_2
 {
-public:
+private:
     int c,d;
+    public:
     void input2()
     {
         cout<<"Enter the value of c and d:"<<endl;
         cin>>c;
         cin>>d;
     }
-//    void show()
-//    {
-//        cout<<"c="<<c<<" d="<<d<<endl;
-//    }
+    void show2()
+    {
+        cout<<"c="<<c<<" d="<<d<<endl;
+    }
 };
 
 class derive:public base_1,public base_2
@@ -42,13 +44,9 @@ class derive:public base_1,public base_2
         cin>>f;
     }
 
-        void show()
+        void show3()
     {
-        cout<<endl;
-        cout<<"Multiple Inheritance:"<<endl;
-        cout<<"a="<<a<<" b="<<b<<endl;
-        cout<<"c="<<c<<" d="<<d<<endl;
-        cout<<"e="<<e<<" e="<<e<<endl;
+        cout<<"e="<<e<<" f="<<f<<endl;
     }
 
 };
@@ -56,8 +54,12 @@ class derive:public base_1,public base_2
 int main()
 {
     derive ob;
-    ob.input1();
-    ob.input2();
     ob.input3();
-    ob.show();
+    ob.show3();
+
+    ob.input1();
+    ob.show1();
+
+    ob.input2();
+    ob.show2();
 }

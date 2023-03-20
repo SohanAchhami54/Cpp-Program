@@ -32,7 +32,7 @@ class C:public A
     public:
     void show2()
     {
-        cout<<"Sub:"<<c-d<<endl;
+        cout<<"Substraction:"<<c-d<<endl;
     }
 };
 int main()

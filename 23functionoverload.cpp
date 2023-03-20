@@ -20,6 +20,7 @@ void A::func(int x,int y)
 int main()
 {
     A obj;
+     obj.func(100,30);
     obj.func(5.3,6.2);
-    obj.func(100,30);
+
 }

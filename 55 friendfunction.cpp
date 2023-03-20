@@ -2,6 +2,8 @@
 using namespace std;
 class A
 {
+private:
+
     int a,b;
 public:
     void input()
