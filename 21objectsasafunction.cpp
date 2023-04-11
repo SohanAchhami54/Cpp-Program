@@ -9,7 +9,7 @@ class rectangle
     public:
      rectangle();//default constructor
     float area();
-    rectangle(int,int);// parametrized constructor
+    rectangle(int,int);// parametrized
 
     void sum(rectangle,rectangle);//object as a function arguments
 };

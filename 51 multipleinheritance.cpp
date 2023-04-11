@@ -22,6 +22,7 @@ private:
     int c,d;
     public:
     void input2()
+   //void input1()
     {
         cout<<"Enter the value of c and d:"<<endl;
         cin>>c;
@@ -33,10 +34,12 @@ private:
     }
 };
 
-class derive:public base_1,public base_2
+class derive:  public base_1,  public base_2
 {
-    public:
+   // public:
+
     int e,f;
+    public:
     void input3()
     {
         cout<<"Enter the value of e and f:"<<endl;
@@ -61,5 +64,5 @@ int main()
     ob.show1();
 
     ob.input2();
-    ob.show2();
+   ob.show2();
 }

@@ -5,7 +5,7 @@ class demo
 {
 private:
     char str[20];
-   string name;
+  //string name;
 public:
     void read()
     {

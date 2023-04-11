@@ -9,12 +9,12 @@ public:
 void A::func(double a,double b)
 {
     double c=a+b;
-    cout<<"addition="<<c<<endl;
+    cout<<c;
 }
 void A::func(int x,int y)
 {
-    int z=x-y;
-    cout<<"substraction="<<z<<endl;
+    int z=x+y;
+    cout<<z<<endl;
 }
 
 int main()

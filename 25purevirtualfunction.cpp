@@ -36,6 +36,7 @@ public:
         cout<<"percentage="<<(sum/500)*100<<endl;
     }
 
+
 };
 int main()
 {
@@ -44,4 +45,5 @@ int main()
 
     obj->display();
     obj->calculate_percentage();
+
 }

@@ -9,6 +9,7 @@ int & num()
 int main()
 {
     num()=25;
-    cout<<"The value of a is :"<<a<<endl;
+    cout<<"The value of a = "<<a<<endl;
+    return 0;
 
 }

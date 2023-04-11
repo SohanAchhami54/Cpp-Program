@@ -1,34 +1,34 @@
 #include<iostream>
 using namespace std;
-class integer
+class sample
 {
-    int x;
-    int y:
-
-    public:
-
-    integer( int x1,int y1)
+private:
+    int a,b;
+public:
+    void get()
     {
-        x=x1;
-        y=y1;
+        cout<<"enter the value of a and b:"<<endl;
+        cin>>a;
+        cin>>b;
     }
-    void operation =(integer &m)
+    void display()
     {
-        x=m.x;
-        y=m.y;
+        cout<<"a="<<a<<endl;
+        cout<<"b="<<b<<endl;
     }
-    void show()
+    void operator =(sample &obj)
     {
-        cout<<x;
-        cout<<y;
+        a=obj.a;
+        b=obj.b;
     }
 };
-
 int main()
 {
-    integer j(10,20);
-    integer i;
-    i=j;
-    j.show();
-    i.show();
+    sample ob1,ob2;
+    ob1.get();
+    ob2=ob1;
+    ob1.display();
+    cout<<"Assignment operator overloading:"<<endl;
+    ob2.display();
 }
+

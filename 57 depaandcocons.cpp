@@ -34,5 +34,6 @@ int main()
     cout<<"Area of first rectangle:"<<obj.Area()<<endl;
      cout<<"Area of second rectangle:"<<obj2.Area()<<endl;
       cout<<"Area of third rectangle:"<<obj3.Area()<<endl;
+      return 0;
 
 }
