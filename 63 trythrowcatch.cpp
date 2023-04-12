@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a,b,c;
+    float a,b,c;
     cout<<"Enter any two number:"<<endl;
     cin>>a;
     cin>>b;
@@ -17,7 +17,7 @@ int main()
             cout<<"Division:"<<c<<endl;
         }
     }
-    catch(int x)
+    catch(float x)
     {
         cout<<"Cannot divide by "<<x<<endl;
     }

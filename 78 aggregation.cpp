@@ -1,8 +1,8 @@
-#include<iostream>
+ #include<iostream>
 using namespace std;
 class Teacher
 {
-    public:
+    public :
     string name;
     string address;
 

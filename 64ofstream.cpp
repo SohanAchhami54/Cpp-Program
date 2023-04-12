@@ -17,5 +17,6 @@ int main()
         cout<<"Enter the name:"<<endl;
         cin>>name;
         file<<name<<endl;
+        file.close();
     }
 }

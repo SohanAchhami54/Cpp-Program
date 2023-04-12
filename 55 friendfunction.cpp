@@ -12,12 +12,12 @@ public:
         cin>>a;
         cin>>b;
     }
-    friend void add (A ob);
+    friend void add (A k);
 };
-void add(A ob)
+void add(A k)
 {
     int c;
-    c=ob.a+ob.b;
+    c=k.a+k.b;
     cout<<"Addition:"<<c<<endl;
 }
 int main()
