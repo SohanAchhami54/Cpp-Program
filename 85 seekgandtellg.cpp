@@ -18,7 +18,6 @@ int main()
     {
         ch=r.get();
         cout<<ch;
-        r.close();
     }
-
+    r.close();
 }

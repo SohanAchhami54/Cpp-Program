@@ -10,5 +10,6 @@ int main(){
 		file<<"welcome to c++ class\n";
 		file.close();
 	}
+
 }
 

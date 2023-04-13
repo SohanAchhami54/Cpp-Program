@@ -7,7 +7,7 @@ inline int cube(int a)
 int main()
 {
     int n;
-    cout<<"Enter the value of a :"<<endl;
+    cout<<"Enter the value of n :"<<endl;
     cin>>n;
     cout<<"The cube of "<<n<<"= "<<cube(n)<<endl;
 }
